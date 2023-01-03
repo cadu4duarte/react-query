@@ -43,7 +43,8 @@ function App() {
   if (!data || isLoading) {
     return(
       <section>
-        <p>Loading</p>
+        <p>teste</p>
+        <h1>dfsfd</h1>
       </section>
     );
   }
