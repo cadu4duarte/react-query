@@ -14,7 +14,7 @@ export interface IData {
 
 async function getUser(id: number) {
 //reqres.in/api/users/1?delay=1
-  const request = await fetch(`reqres.in/api/users/${id}?delay=1`);
+  const request = await fetch(`https://reqres.in/api/users/${id}?delay=1`);
 
   const response = await request.json();
 
@@ -43,8 +43,7 @@ function App() {
   if (!data || isLoading) {
     return(
       <section>
-        <p>teste</p>
-        <h1>dfsfd</h1>
+        <p>Loading</p>
       </section>
     );
   }
