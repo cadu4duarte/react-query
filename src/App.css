@@ -16,7 +16,7 @@ button {
   margin: 5px;
   background-color: cornflowerblue;
   color: white;
-  cursos: pointer;
+  cursor: pointer;
 }
 
 button:hover {
